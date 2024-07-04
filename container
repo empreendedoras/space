@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/w3-css/4.1.0/w3.css">
+    <title>Links website</title>
+    <style>
+      body {
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+      }
+
+      .container {
+        width: 100%;
+        height: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .image {
+        background-image: url("https://empreendedoras.w3spaces.com/favicons.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+        border: 5px solid #fdf5e6;
+      }
+
+      a {
+        font-size: large;
+      }
+
+      .w3-border {
+        border: 3px solid #ccc !important;
+      }
+
+      .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .links-container a {
+        width: 100%;
+        color: #414345 !important;
+        transition: 0.2s;
+      }
+
+      .links-container a:hover {
+        opacity: 1;
+      }
+
+      .profession {
+        margin-top: 15px !important;
+      }
+
+      .profession span {
+        font-size: 14px;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .icons a {
+        text-decoration: none;
+      }
+
+      .icons a svg {
+        fill: #fdf5e6 !important;
+        transform: scale(1);
+      }
+
+      .border {
+        border: 3px ridge #fdf5e6;
+      }
+
+      .contact {
+        text-align: center;
+        color: #fdf5e6;
+      }
+
+      .contact .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .contact .info span {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .bio {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      @media screen and (min-width: 768px) {
+        .link {
+          width: 100%;
+        }
+
+        a {
+          font-size: x-large;
+        }
+      }
+      @media screen and (min-width: 576px) {
+        .container {
+          max-width: 540px;
+        }
+
+        .profession span {
+          font-size: 24px;
+        }
+        
+        .bio {
+          font-size: 15px;
+        }
+      }
+    </style>
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>
+    <!-- Content container -->
+    <div class="container">
+      <!-- Image and name container -->
+      <div class="w3-margin-top" style="text-align: center">
+        <div class="image w3-round"></div>
+        <p class="profession"><span class="w3-padding w3-margin" style="font-weight: bolder; color: #fdf5e6">Em<span style="color: #ffcc66">preendedoras</span></span></p>
+        <p class="bio"><span class="w3-padding w3-margin" style="font-weight: bolder; color: #fdf5e6">No Empreendedoras, abordamos uma ampla gama de temas, com artigos, tutoriais e guias passo a passo para ajudar você a encontrar as melhores oportunidades. Oferecemos orientações sobre como identificar fornecedores, atacadistas, distribuidores, representantes, franquias, consultores e revendedores. Entendemos que iniciar pode gerar muitas dúvidas, e estamos aqui para apoiar você em cada etapa dessa jornada.</span></p><br>
+      </div>
+
+      <!-- Links section 1 -->
+      <div class="links-container">
+        <a href="https://www.empreendedoras.net/" class="w3-button w3-sand w3-hover-pale-green link border" target="_blank">Conheça o nosso site</a>
+        <a href="https://www.empreendedoras.net/contato/" class="w3-button w3-sand w3-hover-pale-green link border" target="_blank">Contato</a>
+        <a href="https://linktr.ee/serempreendedora" class="w3-button w3-sand w3-hover-pale-green link border" target="_blank">Nossas redes sociais</a>
+      </div>
+      
+      <!-- Links section 2 -->
+      <div class="icons w3-padding">
+        <a href="https://www.facebook.com/Empreendedoras-108876101440182/" target="_blank">
+          <i data-feather="facebook"></i>
+        </a>
+        <a href="https://twitter.com/Empreendedoras7" target="_blank">
+          <i data-feather="twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/empreendedoras/" target="_blank">
+          <i data-feather="linkedin"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i data-feather="github"></i>
+        </a>
+      </div><br>
+      
+      <div class="contact">
+        <p class=""><span class="w3-padding w3-margin" style="font-weight: bolder; color: #fdf5e6">CONTACT US</span></p>
+        <div class="info">
+          <a href="tel:+551156672471"><span><i data-feather="phone"></i>+55 (11) 5667-2471</span></a>
+          <a href="mailto:contato@empreendedoras.net"><span><i data-feather="mail"></i>contato@empreendedoras.net</span></a>
+        </div>
+      </div><br>
+
+      <div class="contact">
+        <p class=""><span class="w3-padding w3-margin" style="font-weight: bolder; color: #fdf5e6">FIND US</span></p>
+        <iframe src="https://maps.google.com/maps?q=Brasil,+Njemačka&output=embed" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
